@@ -436,16 +436,16 @@ VALUES (5, 'DPN101', 'Drept penal: partea generală', 6, TRUE),
 -- Department 6: Departament Drept Procedural
 
 INSERT INTO academic.courses (department_id, course_code, course_name, credits, active)
-VALUES (6, 'DPR101', 'Drept procesual civil', 6, TRUE),
-       (6, 'DPR102', 'Drept procesual penal', 6, TRUE),
-       (6, 'DPR103', 'Organizarea judecătorească', 4, TRUE),
-       (6, 'DPR104', 'Executare silită', 5, TRUE),
-       (6, 'DPR105', 'Arbitraj', 4, TRUE),
-       (6, 'DPR201', 'Proceduri speciale civile', 5, TRUE),
-       (6, 'DPR202', 'Proceduri speciale penale', 5, TRUE),
-       (6, 'DPR203', 'Tehnici de argumentare juridică', 4, TRUE),
-       (6, 'DPR204', 'Practică judiciară', 6, TRUE),
-       (6, 'DPR205', 'Mediere și conciliere', 4, TRUE);
+VALUES (6, 'DPP101', 'Drept procesual civil', 6, TRUE),
+       (6, 'DPP102', 'Drept procesual penal', 6, TRUE),
+       (6, 'DPP103', 'Organizarea judecătorească', 4, TRUE),
+       (6, 'DPP104', 'Executare silită', 5, TRUE),
+       (6, 'DPP105', 'Arbitraj', 4, TRUE),
+       (6, 'DPP201', 'Proceduri speciale civile', 5, TRUE),
+       (6, 'DPP202', 'Proceduri speciale penale', 5, TRUE),
+       (6, 'DPP203', 'Tehnici de argumentare juridică', 4, TRUE),
+       (6, 'DPP204', 'Practică judiciară', 6, TRUE),
+       (6, 'DPP205', 'Mediere și conciliere', 4, TRUE);
 
 -- Department 7: Departament Drept Internaţional şi European
 
