@@ -20,7 +20,7 @@ CREATE TABLE academic.departments (
 CREATE TABLE academic.study_programs (
     program_id SERIAL PRIMARY KEY,
     department_id INT REFERENCES academic.departments(department_id) ON DELETE RESTRICT,
-    program_name VARCHAR(100) NOT NULL CHECK (program_name <> ''),
+    program_name VARCHAR(255) NOT NULL CHECK (program_name <> ''),
     degree_level VARCHAR(50) NOT NULL CHECK (degree_level IN ('Licență', 'Master', 'Doctorat')),
     duration_years INT NOT NULL CHECK (duration_years > 0),
     credits_required INT NOT NULL CHECK (credits_required > 0),
